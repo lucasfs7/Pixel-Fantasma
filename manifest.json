@@ -1,7 +1,7 @@
 {
-    "name": "Chrome Pixel Perfect",
+    "name": "Pixel Fantasma",
     "version": "1.0",
-    "description": "A firebug/firefox extension Pixel Perfect like, for chrome",
+    "description": "Plugin para o google chrome que permite colocar uma ou mais imagens, a partir de uma URL, dentro de uma página.",
     "background_page": "controller.html",
     "permissions":
     [
