@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    
+    <head>
+        <title>Twitter Name Ganerator</title>
+        
+        <script>
+            
+            chrome.browserAction.onClicked.addListener(function(tab)
+            {
+                chrome.tabs.executeScript(tab.id, { file: "js/plugin.js" });
+				chrome.tabs.insertCSS(tab.id, { file: "css/plugin.css" })
+            });
+            
+        </script>
+    </head>
+    
+    <body>
+        
+    </body>
+    
+</html>

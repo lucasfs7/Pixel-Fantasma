@@ -1,0 +1,58 @@
+#cpp-plugin-container { 
+position:fixed;
+bottom:0;
+left:0;
+padding:10px 0;
+text-align:center;
+width:100%;
+background:#CC6600;
+z-index:1000000;
+min-height:50px; }
+
+#cpp-plugin-container label,
+#cpp-plugin-container input { 
+margin:5px;
+color:#fff;
+font-weight:bold;
+font-family:helvetica, arial, sans-serif;
+font-size:12px;
+display:inline;
+width:200px; }
+
+#cpp-plugin-container input,
+#cpp-plugin-container button { 
+padding:3px;
+color:#666;
+background:#fff;
+border:1px solid #ccc;
+-webkit-box-shadow:1px 2px 5px #666; }
+
+#cpp-plugin-container button { 
+-webkit-border-radius:10px;
+margin-left:10px;
+cursor:pointer; }
+
+#cpp-plugin-container #cpp-close-plugin,
+#cpp-plugin-container #cpp-add-img { 
+position:absolute;
+top:20px;
+right:10px;
+padding:5px 10px;
+-webkit-border-radius:10px;
+cursor:pointer;
+color:#fff;
+background:#F4442A; }
+
+#cpp-plugin-container .cpp-excluir-img { 
+padding:5px 10px;
+-webkit-border-radius:10px;
+cursor:pointer;
+color:#fff;
+background:#F4442A; }
+
+#cpp-plugin-container #cpp-add-img { right:50px; }
+
+.cpp-img { 
+position:absolute;
+cursor:pointer;
+z-index:100000; }
